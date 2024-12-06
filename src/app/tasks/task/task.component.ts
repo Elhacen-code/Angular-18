@@ -5,10 +5,10 @@ import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-task',
-  standalone: true,
-  imports: [CardComponent, DatePipe],
+  // standalone: true,
+  // imports: [DatePipe],
   templateUrl: './task.component.html',
-  styleUrl: './task.component.css'
+  styleUrl: './task.component.css',
 })
 export class TaskComponent {
   @Input({ required: true }) task!: Task;
